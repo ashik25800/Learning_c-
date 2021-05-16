@@ -1,0 +1,34 @@
+#include<iostream>
+using namespace std;
+
+int c=45;
+
+int main()
+{
+
+    int c=33;
+    cout<<c<<endl;//local variable is calling
+    cout<<::c<<endl;//global variable is calling
+
+    float a=4.22f;//this is an double number;
+    double b=4.33f;
+
+    cout<<sizeof(3.44f)<<endl;//float
+    cout<<sizeof(3.44)<<endl; //double
+    cout<<sizeof(3.44l)<<endl; //long
+
+
+
+    //reference variable
+
+    int x=44;
+    int &y=x;
+
+
+    //type casting
+    float aa=44.33;
+    cout<<(int)aa<<endl;
+
+
+    return 0;
+}
