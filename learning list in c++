@@ -1,0 +1,19 @@
+
+#include<list>
+#include<algorithm>
+#include<iterator>
+
+
+
+//declaration 
+list<type> a;
+
+//accessing element & making head:
+list<type> :: iterator i;
+
+//location wise access
+
+list <type> :: iterator i= a.begin();
+advance(i, (location));
+
+//then the i will point the index data and note that , i is an pointer
